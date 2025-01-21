@@ -22,5 +22,4 @@ Este projeto foi criado e pensando somente por mim Pedro A. Peixoto
 - `HTML`
 - `CSS`
 
-![Projeto Enem!](https://github.com/user-attachments/assets/72f866a9-7efb-44ee-9b11-d209f6fce682)
-
+![Projeto Enem!](https://github.com/user-attachments/assets/a199e981-276f-4ef3-b061-ac6f68408abe)
