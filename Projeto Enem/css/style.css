@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+
+:root {
+    --color-primary-1: #00a2ff;
+    --color-primary-2: #ffffff;
+
+    --color-neutural-1: #f8fafc;
+    --color-neutural-2: #24232b;
+    --color-neutural-3: #13121a;
+    --color-neutral-4: #8BC34AA6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Giga", serif;
+}
+
+body {
+    background-color: #201b2c;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--color-neutural-3);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#textoprincipal {
+    color: var(--color-neutural-1);
+    transition: color 0.6 cubic-bezier;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+#notas {
+    width: 400px;
+    background-color: var(--color-neutural-2);
+    color: var(--color-neutural-1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 18px;
+}
+
+#nota1 {
+    background-color: var(--color-neutural-3);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--color-primary-2);
+}
+
+#nota2 {
+    background-color: var(--color-neutural-3);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--color-primary-2);
+}
+
+#nota3 {
+    background-color: var(--color-neutural-3);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--color-primary-2);
+}
+
+#nota4 {
+    background-color: var(--color-neutural-3);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--color-primary-2);
+}
+
+#nota5 {
+    background-color: var(--color-neutural-3);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--color-primary-2);
+}
+
+::placeholder {
+    color: var(--color-neutral-4);
+}
+
+#calcular {
+    background-color: var(--color-neutral-4);
+    border: none;
+    margin-top: 12px;
+    padding: 10px 0px;
+    border-radius: 4px;
+    color: var(--color-neutural-1);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+#calcular:hover {
+    background-color: var(--color-neutural-2);
+}
